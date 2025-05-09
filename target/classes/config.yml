@@ -1,0 +1,13 @@
+messages:
+  no_permission: "<red>У вас нет прав!"
+  no_links: "<yellow>Нет ссылок в конфиге"
+  header: "<gradient:green:blue><bold>Ссылки сервера:"
+  link_hover: "<gray>Кликните чтобы открыть"
+  reload_success: "<green>Конфиг перезагружен!"
+
+links:
+  - ''
+  - "<white>Название ссылки:</white> <click:open_url:'https://example.com'><gradient:green:blue>://example.com</gradient></click>"
+  - "<white>Название ссылки:</white> <click:open_url:'https://example.org'><gradient:red:blue>//example.org</gradient></click>"
+  - "<white>Название ссылки:</white> <click:open_url:'https://example.net'><gradient:gold:yellow>://example.net</gradient></click>"
+  - ''

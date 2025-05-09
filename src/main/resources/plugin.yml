@@ -1,0 +1,17 @@
+name: Links
+version: 1.2
+main: me.general_viski.links.Links
+author: General_Viski
+commands:
+  links:
+    description: Показывает список ссылок или перезагружает конфиг
+    usage: |
+      /links - показать ссылки
+      /links reload - перезагрузить конфиг
+permissions:
+  linksplugin.use:
+    description: Разрешает использование команды /links
+    default: true
+  linksplugin.reload:
+    description: Разрешает перезагрузку конфига
+    default: op
