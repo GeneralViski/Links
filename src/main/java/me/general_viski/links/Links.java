@@ -81,6 +81,7 @@ public class Links extends JavaPlugin {
         if (links.isEmpty()) {
             sendMessage(sender, config.getString("messages.no_links"));
         } else {
+            sendMessage(sender, "");
             sendMessage(sender, config.getString("messages.header"));
 
             Component hoverText = miniMessage.deserialize(config.getString("messages.link_hover"));
