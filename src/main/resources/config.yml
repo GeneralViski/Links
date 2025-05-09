@@ -7,7 +7,7 @@ messages:
 
 links:
   - ''
-  - "<white>Название ссылки:</white> <click:open_url:'https://example.com'><gradient:green:blue>://example.com</gradient></click>"
-  - "<white>Название ссылки:</white> <click:open_url:'https://example.org'><gradient:red:blue>//example.org</gradient></click>"
-  - "<white>Название ссылки:</white> <click:open_url:'https://example.net'><gradient:gold:yellow>://example.net</gradient></click>"
+  - "<white>Название ссылки:</white> <click:open_url:'https://example.com'><gradient:green:blue>https://example.com</gradient></click>"
+  - "<white>Название ссылки:</white> <click:open_url:'https://example.org'><gradient:red:blue>https://example.org</gradient></click>"
+  - "<white>Название ссылки:</white> <click:open_url:'https://example.net'><gradient:gold:yellow>https://example.net</gradient></click>"
   - ''
